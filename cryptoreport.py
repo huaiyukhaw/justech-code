@@ -14,10 +14,12 @@ coins = []
 coin = []
 
 for elem in elems:
+    # this column is the logos, we don't take that
     if i == 1:
         i += 1
         continue
 
+    # remove the $ and % symbols
     if i != 7:
         coin.append(re.sub('[$,%]','',elem.get_text()))
         i += 1
@@ -36,6 +38,3 @@ with open("crypto.csv", "w", newline='') as f:
 
     for coin in coins:
         output_writer.writerow(coin)
-
-
-    
