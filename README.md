@@ -1,4 +1,7 @@
 # Scrappers in coding workshop for law students
+
+Thanks [JusTech](https://linktr.ee/umjustech) for inviting me!
+
 View the slide of the workshop [here](https://bit.ly/justech-code-slide)
 
 Download Python from [python.org](https://python.org) and VS Code from [https://code.visualstudio.com/].
